@@ -9,7 +9,7 @@ const Name: FC = () => {
         value={name}
         onChange={e => setName(e.target.value)}
         label="Title"
-        style={{ width: 400, margin: 15 }}
+        style={{ width: 400, marginLeft: 15, marginBottom: 15 }}
       />
     </div>
   );

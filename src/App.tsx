@@ -1,11 +1,11 @@
 import React from 'react';
-import Name from './components/Name';
+import Paint from './components/Paint';
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Name />
+      <Paint />
     </div>
   );
 };

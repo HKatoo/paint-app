@@ -1,0 +1,21 @@
+.color-picker {
+  border: none;
+}
+
+.color-picker span {
+  content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 5px 15px;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+
+.color-picker input {
+  opacity: 0;
+}
+
+.color-picker input:checked + span {
+  transform: scale(1.5);
+}
